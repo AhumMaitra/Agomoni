@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agomoni - Spiritual Event</title>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">Agomoni 2024</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="date-container">
+            <span id="current-date"></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Animated Image Slider -->
+    <header id="home">
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slides">
+                    <!-- Slide 1 -->
+                    <div class="slide">
+                        <img src="https://images.tv9bangla.com/wp-content/uploads/2021/08/Untitled-design-66-2.jpg" alt="Celebration Image 1">
+                        <div class="text-overlay">
+                            <h2>Celebration of Spirituality</h2>
+                        </div>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="slide">
+                        <img src="https://images.tv9bangla.com/wp-content/uploads/2021/08/Untitled-design-66-2.jpg" alt="Celebration Image 2">
+                        <div class="text-overlay">
+                            <h2>Unity in Devotion</h2>
+                        </div>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="slide">
+                        <img src="https://images.tv9bangla.com/wp-content/uploads/2021/08/Untitled-design-66-2.jpg" alt="Celebration Image 3">
+                        <div class="text-overlay">
+                            <h2>Cultural Performances</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <div class="controls">
+                    <span class="prev" onclick="prevSlide()">&#10094;</span>
+                    <span class="next" onclick="nextSlide()">&#10095;</span>
+                </div>
+
+                <!-- Dots/Indicators -->
+                <div class="dots">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Agomoni Section -->
+    <section id="about" class="about-section">
+        <div class="about-text">
+            <h2 style="font-family: Arial Black;">What is Agomoni?</h2>
+            <p style="font-family: Arial;">"Agomoni" is a spiritual and cultural event to welcome Maa Durga with Chandi Path, Classical Dance, Songs, and Recitations. Join us for a memorable spiritual experience with unity and devotion.
+                Agomoni is a significant cultural and spiritual event celebrated with great enthusiasm, particularly in certain regions of India. The term "Agomoni" is derived from the Bengali word "Agomon," meaning "arrival" or "welcome." It marks the anticipation and welcoming of the festive season, particularly the Durga Puja, which is one of the most important Hindu festivals. Agomoni signifies the arrival of Goddess Durga, who is revered for her strength and compassion, and heralds a period of joyous celebrations and religious activities.
+
+During Agomoni, various cultural programs and spiritual rituals are organized to honor the goddess and prepare for the grand festivities of Durga Puja. The celebrations typically include recitations of hymns and verses from sacred texts, classical dance performances, devotional songs, and vibrant processions. The atmosphere is filled with a sense of devotion and festivity as people come together to participate in these activities.
+
+In schools and community centers, Agomoni is often marked by special events such as Chandi Path (a recitation of the Chandi scripture), classical dance performances showcasing traditional dance forms, soulful singing of devotional songs, and recitations of spiritual poetry. These events not only enhance the spiritual experience but also foster a sense of unity and cultural pride among participants.
+
+For those organizing Agomoni celebrations, creating a dedicated space or website for the event helps in sharing information, updates, and engaging content with the community. This includes detailing the event schedule, highlighting key activities, providing background information on the significance of Agomoni, and offering insights into the cultural and spiritual aspects of the celebration.
+
+Overall, Agomoni serves as a vibrant prelude to the grand festivities of Durga Puja, creating a rich tapestry of cultural, spiritual, and community activities that bring people together in celebration and reverence.
+            </p>
+        </div>
+        <div class="about-image">
+            <img src="https://images.tv9bangla.com/wp-content/uploads/2021/08/Untitled-design-66-2.jpg" alt="Durga Maa">
+        </div>
+    </section>
+
+    <!-- Previous Event Quotes/Images Section -->
+    <section id="previous-event" class="previous-section">
+        <h2 style="font-family: Arial Black;">Memorable Moments</h2>
+        <div class="quote">
+            <p style="font-family: Arial Black;">"Unity is strength. When there is teamwork and collaboration, wonderful things can be achieved."</p>
+        </div>
+        <div class="previous-image">
+            <img src="https://images.tv9bangla.com/wp-content/uploads/2021/08/Untitled-design-66-2.jpg" alt="Previous Event Image">
+        </div>
+        <div style="max-width: 640px; margin: auto; position: relative; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); overflow: hidden;">
+            <video controls 
+                   style="width: 100%; border: none; outline: none; display: block;"
+                   src="https://www.bigbuckbunny.org">
+                Your browser does not support the video tag.
+            </video>
+            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.3); display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5em; font-family: Arial, sans-serif; pointer-events: none;">
+                Stylish Video Player
+            </div>
+        </div>
+    </section>
+
+    <!-- Participants Section -->
+    <section id="participants" class="participants-section">
+        <h2>Participants</h2>
+        <div class="participants-list">
+            <div class="participant">
+                <img src="https://images.tv9bangla.com/wp-content/uploads/2021/08/Untitled-design-66-2.jpg" alt="Participant 1">
+                <h3>John Doe</h3>
+                <p>Singer</p>
+            </div>
+            <div class="participant">
+                <img src="https://images.tv9bangla.com/wp-content/uploads/2021/08/Untitled-design-66-2.jpg" alt="Participant 2">
+                <h3>Jane Smith</h3>
+                <p>Dancer</p>
+            </div>
+            <!-- Add more participants as needed -->
+        </div>
+    </section>
+
+    <!-- Countdown Section -->
+    <section id="countdown" class="countdown-section">
+        <h2>Days Left Until the Event</h2>
+        <div id="countdown-timer"></div>
+        <p style="font-family: Arial Black;">Event Date: 1st October 2024</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Organized by Garalgacha High school | Website created with love ❤️ by Ahum Maitra!</p>
+    </footer>
+
+</body>
+
+</html>
+

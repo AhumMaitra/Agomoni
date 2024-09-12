@@ -1,0 +1,231 @@
+/* Basic styling for simplicity and elegance */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f5f0;
+    color: #333;
+}
+
+nav {
+    background-color: #ff8000;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav .logo {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5rem;
+    color: #e3f542;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+nav .nav-links a:hover {
+    background-color: yellow;
+    color: #ffff;
+}
+
+nav .date-container {
+    color: #ffff;
+    font-weight: bold;
+}
+
+/* Big Image Slider */
+.slider-container {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 1s ease;
+}
+
+.slide {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-overlay {
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    color: #ffff;
+    font-size: 2rem;
+    font-family: 'Great Vibes', cursive;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Controls */
+.controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+.controls .prev, .controls .next {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dots {
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+/* About Section */
+.about-section {
+    display: flex;
+    padding: 80px 20px;
+    background-color: #fff8e1;
+}
+
+.about-text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+}
+
+/* Previous Event Section */
+.previous-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f5f5f5;
+}
+
+.previous-section .quote {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* Participants Section */
+.participants-section {
+    padding: 60px 20px;
+    background-color: #fff8e1;
+    text-align: center;
+}
+
+.participants-section h2 {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    color: #6d4c41;
+}
+
+.participants-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.participant {
+    text-align: center;
+}
+
+.participant img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.participant h3 {
+    font-size: 1.25rem;
+    color: #ffff;
+}
+
+.participant p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Countdown Section */
+.countdown-section {
+    background-color: #f5f5f5;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.countdown-section h2 {
+    font-size: 2.5rem;
+    color: #6d4c41;
+    margin-bottom: 20px;
+}
+
+#countdown-timer {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffff;
+    background-color: #ffd700;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+/* Footer */
+footer {
+    background-color:  #ff8000;
+    color: #ffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 1rem;
+}
+
